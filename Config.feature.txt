@@ -1,0 +1,15 @@
+#language: pt
+
+Funcionalidade Tabela de Cadastro
+
+Como cliente da EBAC SHOP
+Quero fazer conluir meu Cadastro
+Para finalizar minha compra 
+
+Esquema do Cenario: Cadastro de usuário
+Quando cadastrar todos os dados marcados com asteriscos <*>
+E não permitir campo e-mail com formato inválidos < email inválido>
+Então ao cadastrar com campos vazios, deve exibir mensagem de alerta < campo email vazio>
+
+Exemplos:
+
